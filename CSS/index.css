@@ -487,6 +487,8 @@ nav .container .links ul li:hover a::after {
 #Blog .container .boxes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #Blog .container .boxes .box {
