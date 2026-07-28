@@ -221,7 +221,11 @@
         width: initial;
         margin: 0px 10px;
     }
-
+   
+    #Blog .container .boxes{
+        justify-content: flex-start;
+    }
+   
     #Portfolio .boxes .box {
         width: 50%;
     }
@@ -234,6 +238,7 @@
     #Blog .container .boxes .box {
         width: 50%;
         margin-bottom: 30px;
+        
     }
 
     #Blog .container .boxes .box .item {
