@@ -497,8 +497,8 @@ nav .container .links ul li:hover a::after {
 }
 
 #Blog .container .boxes .box .item {
-    width: 280px;
-    margin-inline: 10px;
+    width: 300px;
+    margin:auto;
     border: 2px solid var(--main-color);
     border-radius: 10px;
     overflow: hidden;
