@@ -9,6 +9,9 @@
     but vw suitable with the device width 
  */
 @media (max-width: 1300px) {
+    nav{
+        padding: 5px ;
+    }
     nav .container .logo {
         width: 15%;
     }

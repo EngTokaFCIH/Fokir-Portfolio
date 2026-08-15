@@ -5,6 +5,7 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
+    
 }
 
 nav .container {
@@ -24,7 +25,7 @@ nav .container .logo img {
 nav .container .links ul {
     list-style: none;
     display: flex;
-    column-gap: 10px;
+    column-gap: 15px;
 }
 
 nav .container .links .burger {
@@ -229,8 +230,9 @@ nav .container .links ul li:hover a::after {
 }
 
 #About .container .part1 .image .layout ul li {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
     border-radius: 50%;
     background-color: #fff;
     display: flex;
@@ -343,6 +345,7 @@ nav .container .links ul li:hover a::after {
 #About .container .part2 .buttons button a {
     color: var(--main-color);
     text-decoration: none;
+    transition-duration: 0.5;
 }
 
 #About .container .part2 .buttons button:hover a {
@@ -515,7 +518,7 @@ nav .container .links ul li:hover a::after {
 }
 
 #Blog .container .boxes .box .item .body {
-    padding: 10px 20px;
+    padding: 20px;
 }
 
 #Blog .container .boxes .box .item .body h5 {
